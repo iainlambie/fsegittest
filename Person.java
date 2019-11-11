@@ -28,5 +28,34 @@ public class Person
 	} // End of Constructor
 
 	// Getters and setters will go here in pairs
+	public void setfirstname(String avalue)
+	{
+		firstName = avalue;
+	}
+
+	public String getfirstname()
+	{
+		return firstname;
+	}
+
+	public void setotherNames(String avalue)
+	{
+			otherNames = avalue;
+	}
+
+	public String otherfirstnames()
+	{
+			return othernames;
+	}
+
+	public void setsurname(String avalue)
+	{
+			suraame = avalue;
+	}
+
+	public String getsurname()
+	{
+			return surname;
+	}
 
 } // End of class declaration
