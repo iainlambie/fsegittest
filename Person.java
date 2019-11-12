@@ -29,4 +29,19 @@ public class Person
 
 	// Getters and setters will go here in pairs
 
+	// Mutator methods will go here
+	public int getAge()
+	{
+		int age;
+
+		// This method will caculate the age of a person
+		// The attribute data of birth will be used along
+		// with the current data. Age will be calculated
+		// down to the nearest whole number of years
+		age = 0;
+
+
+		// return age;
+	}
+
 } // End of class declaration
