@@ -21,7 +21,7 @@ public class Person
 
 	public Person(String value1, String value2, String value3)
 	{
-		firstNames = value1;
+		firstName = value1;
 		otherNames = value2;
 		surname = value3;
 
@@ -41,7 +41,19 @@ public class Person
 		age = 0;
 
 
-		// return age;
-	}
+		return age;
+
+	} // End of getage
+
+	public void printFullName()
+	{
+		String fullName;
+		// This methid will return the full name of a person
+		// in the order first firstName otherNames surname
+		fullname = "";
+
+		return fullName;
+
+	} // End of printf full name
 
 } // End of class declaration
