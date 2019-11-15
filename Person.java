@@ -85,4 +85,9 @@ public class Person
 
 	} // End of printf full name
 
+	public String toString()
+	{
+		return firstName + " " + otherNames + " " + surname;
+	}
+
 } // End of class declaration
