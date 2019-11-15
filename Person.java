@@ -21,7 +21,7 @@ public class Person
 
 	public Person(String value1, String value2, String value3)
 	{
-		firstNames = value1;
+		firstName = value1;
 		otherNames = value2;
 		surname = value3;
 
@@ -57,5 +57,32 @@ public class Person
 	{
 			return surname;
 	}
+
+	// Mutator methods will go here
+	public int getAge()
+	{
+		int age;
+
+		// This method will caculate the age of a person
+		// The attribute data of birth will be used along
+		// with the current data. Age will be calculated
+		// down to the nearest whole number of years
+		age = 0;
+
+
+		return age;
+
+	} // End of getage
+
+	public void printFullName()
+	{
+		String fullName;
+		// This methid will return the full name of a person
+		// in the order first firstName otherNames surname
+		fullname = "";
+
+		return fullName;
+
+	} // End of printf full name
 
 } // End of class declaration
